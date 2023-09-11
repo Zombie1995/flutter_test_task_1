@@ -1,0 +1,47 @@
+part of '../theme.dart';
+
+TextTheme iosTextTheme = const TextTheme(
+  // displayLarge: TextStyle(),
+  // displayMedium: TextStyle(),
+  // displaySmall: TextStyle(),
+  // headlineLarge: TextStyle(),
+  // headlineMedium: TextStyle(),
+  // headlineSmall: TextStyle(),
+  titleLarge: TextStyle(
+    fontFamily: 'SFProDisplay',
+    fontStyle: FontStyle.normal,
+    fontWeight: FontWeight.w500,
+    color: Colors.black,
+    fontSize: 18,
+    height: 1.2,
+  ),
+  // titleMedium: TextStyle(),
+  // titleSmall: TextStyle(),
+  bodyLarge: TextStyle(
+    fontFamily: 'SFProDisplay',
+    fontStyle: FontStyle.normal,
+    fontWeight: FontWeight.w500,
+    color: Colors.black,
+    fontSize: 16,
+    height: 1.2,
+  ),
+  bodyMedium: TextStyle(
+    fontFamily: 'SFProDisplay',
+    fontStyle: FontStyle.normal,
+    fontWeight: FontWeight.w500,
+    color: Colors.black,
+    fontSize: 16,
+    height: 1.2,
+  ),
+  // bodySmall: TextStyle(),
+  // labelLarge: TextStyle(),
+  // labelMedium: TextStyle(),
+  labelSmall: TextStyle(
+    fontFamily: 'SFProDisplay',
+    fontStyle: FontStyle.normal,
+    fontWeight: FontWeight.w400,
+    color: Colors.black,
+    fontSize: 12,
+    height: 1.2,
+  ),
+);
